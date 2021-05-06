@@ -209,7 +209,7 @@ namespace TiqSoft.ScreenAssistant.Controllers
         }
         #endregion
 
-        private void Toggle()
+        public void Toggle()
         {
             if (this.Enabled)
             {

@@ -27,12 +27,12 @@ namespace TiqSoft.ScreenAssistant
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this._controller.Start();
+            this._controller.Toggle();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            this._controller.Stop();
+            this._controller.Toggle();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
