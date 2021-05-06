@@ -56,6 +56,8 @@ namespace TiqSoft.ScreenAssistant.Games.ApLeg
         [WeaponData("L-STAR", 0, "LSTAR")]
         LStar = 1 << 21,
         [WeaponData("Charge Rifle", 2, "CHARGEDRIFLE", "CHARGERIFLE")]
-        ChargedRifle = 1 << 22
+        ChargedRifle = 1 << 22,
+        [WeaponData("Volt", 4)]
+        Volt = 1 << 23
     }
 }
