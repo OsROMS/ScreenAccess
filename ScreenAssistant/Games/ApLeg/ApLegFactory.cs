@@ -72,6 +72,7 @@ namespace TiqSoft.ScreenAssistant.Games.ApLeg
                 case WeaponAL.Peacekeeper:
                 case WeaponAL.TripleTake:
                 case WeaponAL.ChargedRifle:
+                case WeaponAL.Docek:
                     result = new NonAdjustableWeapon(inGameName, recognizedName, numOfMods);
                     break;
                 case WeaponAL.Havoc:
@@ -109,6 +110,9 @@ namespace TiqSoft.ScreenAssistant.Games.ApLeg
                     break;
                 case WeaponAL.Spitfire:
                     result = new Spitfire(inGameName, recognizedName, numOfMods);
+                    break;
+                case WeaponAL.Repeater3030:
+                    result = new Repeater3030(inGameName, 2, recognizedName, numOfMods);
                     break;
                 case WeaponAL.Unknown:
                 case WeaponAL.EVA8Auto:
