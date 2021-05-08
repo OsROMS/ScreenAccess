@@ -235,7 +235,7 @@ namespace TiqSoft.ScreenAssistant.Controllers
             }
         }
 
-        public void Start()
+        private void Start()
         {
             this.Enabled = true;
             this._weaponFactory.Recognizer.FullScreenMode = this._settings.FullScreenMode;
@@ -457,7 +457,7 @@ namespace TiqSoft.ScreenAssistant.Controllers
             }
         }
 
-        public void Stop()
+        private void Stop()
         {
             this.Enabled = false;
             this.Working = false;
